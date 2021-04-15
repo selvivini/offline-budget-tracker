@@ -29,3 +29,32 @@ WHEN the user inputs a withdrawal or deposit
 THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
 - - -
+## Technologies Used
+  * MongoDb
+  * NodeJs
+  * Indexed Db
+  * Service workers
+  * manifest.webmanifest
+  * static/data cache
+  * Bootstrap for styling
+
+  The following screenshots helps to know how the app works.once the transaction is entered and when u have to add funds click add funds when you have to deduct it click subtract funds, the transaction item shows as a list item.
+  ![budgetpage](public/images/bugetpage.PNG)
+  
+  when offline the user still can add and a subtract funds though it gets saved in indexed db instead we can't make a post request to the server when offline
+
+  ![offline](public/images/offlinemode.PNG)
+  post fails when offline
+  ![postfail](public/images/postfailed.PNG)
+  
+  once network resumes the post request shows success message
+  ![postscuccess](public/images/postsuccess.PNG)
+   the following screenshot shows an entry in indexed db
+
+   ![indexdb](public/images/indexdb.PNG)
+
+   the following static and data api are cached using service workers for offline capability
+   ![staticCache](public/images/staticcache.PNG)
+   ![datacache](public/images/datacache.PNG)
+
+  
