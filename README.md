@@ -57,4 +57,7 @@ THEN that will be shown on the page, and added to their transaction history when
    ![staticCache](public/images/staticcache.PNG)
    ![datacache](public/images/datacache.PNG)
 
+   The app is being deployed to heroku.Visit the following link
+   [offline-budget-tracker](https://safe-cove-07921.herokuapp.com/)
+
   
